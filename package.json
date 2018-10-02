@@ -1,0 +1,20 @@
+{
+  "name": "gitbook-prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gitbook build",
+    "start": "gitbook serve",
+    "deploy": "npm run build && gh-pages -m '[AUTO] Update page' --branch gh-pages -d _book/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^2.0.0",
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-ga": "^1.0.1"
+  }
+}
